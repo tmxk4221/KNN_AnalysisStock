@@ -1,9 +1,8 @@
 # KNN_AnalysisStock
 
-##	1.1 프로젝트 명 및 기간
-	▷ 프로젝트 명: 도커를 활용한 보안교육 모델 구축
-	▷ 프로젝트 기간: 2019.10.08 ~ 2019.11.26 (8주)
-analyze_data_knn.py  
-linear_algebra.py
-save_machined_data.py
-stock_history.csv
+##	Description
+	▷ save_machined_data.py: "stock_history.csv" 파일을 읽어 독립 변수를 추가하여 파일 생성 -> "stock_history_added.csv"
+	▷ analyze_data_knn.py: "stock_history_added.csv"파일을 읽어 KNN을 통해 분석한 파일 생성 -> "stock_history_K.csv"
+	▷ linear_algebra.py: KNN Algorithm
+	▷ stock_history.csv: 과거 주가 데이터(분석할 대상)
+  
